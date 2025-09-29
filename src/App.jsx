@@ -201,7 +201,7 @@ const App = () => {
         {currentConversation.messages.length === 0 ? (
           // Welcome container
           <div className="welcome-container">
-            <img className="welcome-logo" src="public/gemini-chatbot-logo.svg" alt="Gemini Logo" />
+            <img className="welcome-logo" src="/gemini-chatbot-logo.svg" alt="Gemini Logo" />
             <h1 className="welcome-heading">Message Gemini</h1>
             <p className="welcome-text">Ask me anything about any topic. I'm here to help!</p>
           </div>

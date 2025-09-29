@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: gemini-chatbot-reactjs
+    env: node
+    buildCommand: npm run build
+    startCommand: npm start
+    plan: free
+    envVars:
+      - key: NODE_ENV
+        value: production
